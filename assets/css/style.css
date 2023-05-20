@@ -1,0 +1,64 @@
+body {
+    background-image: url(../images/pexels-fwstudio-164005.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #27E1C1;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    color: #27E1C1;
+    background-color: rgb(76, 61, 45);
+    border-radius: 3px;
+    border: 2px solid #27E1C1;
+}
+
+#buttonDiv {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#drinkResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+#drinkResults {
+    background-color: rgb(76, 61, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    padding-top: 3rem;
+    border: 3px solid #27E1C1;
+    color: rgb(249, 231, 178);
+}
+
+#drinkResults img {
+    max-height: 20rem;
+    width: fit-content;
+}
+
+#drinkResults h4 {
+    font-size: 25px;
+}
+
+#drinkResults p {
+    text-align: center;
+}
+
