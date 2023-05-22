@@ -50,8 +50,8 @@ button {
 }
 
 #drinkResults img {
-    max-height: 20rem;
-    width: fit-content;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 #drinkResults h4 {
@@ -62,3 +62,16 @@ button {
     text-align: center;
 }
 
+@media (max-width:400px) {
+
+    #drinkResultsContainer {
+        width: 90%;
+    }
+
+    #drinkResults img {
+        max-height: 90%;
+        max-width: 90%;
+    }
+
+
+}
